@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+$pale-blue: hsl(225, 100%, 94%);
+$bright-blue: hsl(245, 75%, 52%);
+$very-pale-blue: hsl(225, 100%, 98%);
+$desaturated-blue: hsl(224, 23%, 55%);
+$dark-blue: hsl(223, 47%, 23%);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: $desaturated-blue;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  gap: 1rem;
+}
+
+.music-plan-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-container {
+    
+}
+
+.btn-proceed {
+    background-color: $bright-blue;
+    color: white;
+    
+}
+
+.btn-cancel {
+
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  bottom: 0;
+  position: absolute;
+  a {
+    color: $bright-blue;
+  }
+}
