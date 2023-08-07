@@ -67,19 +67,13 @@ img {
   margin-left: 20px;
 }
 .plan-container h2 {
-<<<<<<< HEAD
   font-size: 16px;
-=======
   font-size: 15px;
->>>>>>> e9e025e763243190a084807c8d6a2a60891d7947
   font-weight: 900;
 }
 .plan-container p {
   color: hsl(224, 23%, 55%);
-<<<<<<< HEAD
   font-size: 16px;
-=======
->>>>>>> e9e025e763243190a084807c8d6a2a60891d7947
 }
 
 .btn-change {
