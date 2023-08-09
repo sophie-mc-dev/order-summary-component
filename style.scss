@@ -41,21 +41,19 @@ img {
 }
 
 .card-body {
-  padding: 7%;
+  padding: 10%;
   text-align: center;
-  margin-bottom: 15px;
 }
 
 .title {
   color: $dark-blue;
   font-weight: 900;
   margin-bottom: 20px;
+  font-size: 25px;
 }
 
 .description {
   color: $desaturated-blue;
-  width: 80%;
-  margin: 0 auto;
   margin-bottom: 25px;
 }
 
@@ -89,6 +87,10 @@ img {
   color: $bright-blue;
   font-weight: 900;
   font-size: 14px;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .btn-proceed {
@@ -102,6 +104,10 @@ img {
   display: block;
   cursor: pointer;
   box-shadow: 5px 10px 20px hsla(245, 75%, 52%, 0.276);
+
+  &:hover {
+    box-shadow: 0 0 20px 10px hsla(245, 75%, 52%, 0.5);
+  }
 }
 
 .btn-cancel {
@@ -111,6 +117,12 @@ img {
   font-size: 16px;
   font-weight: 900;
   cursor: pointer;
+
+  &:hover {
+    text-decoration: underline 0.15em $desaturated-blue;
+    text-underline-offset: 0.4em;
+
+  }
 }
 
 .attribution {
@@ -123,14 +135,13 @@ img {
   }
 }
 
-
 /* ==== MOBILE RESPONSIVE ==== */
 @media only screen and (max-width: 500px) {
-   body {
-        background-image: url(./images/pattern-background-mobile.svg);
-    }
+  body {
+    background-image: url(./images/pattern-background-mobile.svg);
+  }
 
-    main {
-      width: 87%;
+  main {
+    width: 87%;
   }
 }
